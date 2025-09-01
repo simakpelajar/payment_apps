@@ -43,3 +43,20 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Platform specific folders (excluded to keep repo minimal)
+android/
+ios/
+windows/
+macos/
+linux/
+web/
+test/
+
+# Keep only essential files for Flutter development
+# - lib/ (your Dart code)
+# - assets/ (your images, fonts, etc.)
+# - pubspec.yaml (dependencies)
+# - pubspec.lock (lock file)
+# - README.md (documentation)
+# - analysis_options.yaml (linting rules)
